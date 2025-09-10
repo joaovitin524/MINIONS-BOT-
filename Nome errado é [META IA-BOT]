@@ -1,0 +1,31 @@
+Beleza 🔥 você quer um guia de comandos prontinho no seu repositório (tipo dentro do README.md) explicando como ativar o Meta IA no Termux.
+
+Aqui vai um trecho que você pode colar direto no seu README.md:
+
+
+---
+
+🚀 Ativar o Bot no Termux
+
+1️⃣ Atualizar pacotes
+
+pkg update && pkg upgrade -y
+
+2️⃣ Instalar dependências principais
+
+pkg install nodejs git -y
+
+3️⃣ Clonar o repositório
+
+git clone https://github.com/joaovitin524/META-IA-.git
+cd META-IA-
+
+4️⃣ Dar permissão ao script de inicialização
+
+chmod +x start.sh
+
+5️⃣ Rodar o menu do bot
+
+./start.sh
+
+
