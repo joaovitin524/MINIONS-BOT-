@@ -1,0 +1,66 @@
+Vizão tropa aqui esta como ativar o nosso bot 
+                   👇 
+1️⃣ Atualizar pacotes
+
+pkg update && pkg upgrade -y
+
+2️⃣ Instalar dependências principais
+
+pkg install nodejs git -y
+
+3️⃣ Clonar o repositório
+
+git clone https://github.com/joaovitin524/META-IA-.git
+cd META-IA-
+
+4️⃣ Dar permissão ao script de inicialização
+
+chmod +x start.sh
+
+5️⃣ Rodar o menu do bot
+
+./start.sh
+
+6️⃣ Criar o package-lock.json
+
+npm init -y
+
+7️⃣ instale alguma dependências 
+
+npm install react react-dom
+
+
+EXEMPLO SIMPLIFICADO DO PACKAGE-LOCK.JSON
+
+(Aviso esse package-lock.jsoj não se usa manualmente)
+
+{
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "meu-projeto",
+      "version": "1.0.0",
+      "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+      }
+    },
+    "node_modules/react": {
+      "version": "18.3.1",
+      "resolved": "https://registry.npmjs.org/react/-/react-18.3.1.tgz",
+      "integrity": "sha512-xxxx"
+    },
+    "node_modules/react-dom": {
+      "version": "18.3.1",
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz",
+      "integrity": "sha512-yyyy",
+      "dependencies": {
+        "react": "^18.3.1"
+      }
+    }
+  }
+}
+
